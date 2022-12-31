@@ -1,0 +1,188 @@
+.header{
+  display: flex;
+  font-weight:"bold";
+  background-color:#081520 ;
+  justify-content: space-between;
+  color: #FFFDFA;
+  
+  width: 100%;
+  padding: .5rem 1rem .5rem 1rem;;
+  text-align: center;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  z-index: 10;
+
+}
+
+.navmenu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navmenu li {
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navmenu li:hover {
+  transform: scale(1.04);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 50px;
+  
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(233, 155, 11) 21%, rgb(223, 223, 191) 81.2%);
+}
+
+
+.navmenu li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  transition: 3s;
+  transition: width 0.3s;
+  background:linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+}
+.navmenu li:hover::after {
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+}
+.name1{
+  display: flex;
+  font-size: 1rem;
+}
+.name2{
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.filltext
+{
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKkRjhN-X9GeL4tjtpAa7UDE5c5OFqI_gsv6OKnHsvsVapLJHdSh4evaEfT2L8TpiOKo&usqp=CAU);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: animate 3s ease-in-out alternate infinite;
+}
+@keyframes animate
+{
+    from
+    {
+        background-position: center 40%;
+    }
+    to
+    {
+        background-position: center 60%;
+    }
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+  
+  .navmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    right: 35px;
+    top: 3rem;
+    width: 15rem;
+    text-align: center;
+    height: 14.2rem;
+    background:
+    linear-gradient( 73.1deg,  rgb(233, 155, 11) 8%, rgb(223, 223, 191) 86.9% );
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;  
+    padding: 0%;
+    
+  }
+  .navmenu li {
+    width: 70%;
+    text-align: center;
+    border: 1px solid #eeee;
+    font-size: 1.4rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 2px;
+  }
+  .navmenu li:hover {
+    border: none;
+    transform: scale(1.01);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 0px;
+  }
+
+  .navmenu.active {
+    left: -500px;
+  }
+  
+  .hamburger {
+    display: initial;
+    margin-right: 10px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  
+  .navmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    right: 35px;
+    top: 3rem;
+    width: 15rem;
+    text-align: center;
+    height: 14.2rem;
+    background:
+    linear-gradient( 73.1deg,  rgb(233, 155, 11) 8%, rgb(223, 223, 191) 86.9% );
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;  
+    padding: 0%;
+    
+  }
+  .navmenu li {
+    width: 70%;
+    text-align: center;
+    border: 1px solid #eeee;
+    font-size: 1.4rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 2px;
+  }
+  .navmenu li:hover {
+    border: none;
+    transform: scale(1.01);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 0px;
+  }
+
+  .navmenu.active {
+    left: -500px;
+  }
+  
+  .hamburger {
+    display: initial;
+    margin-right: 10px;
+  }
+}

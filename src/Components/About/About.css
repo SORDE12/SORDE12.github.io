@@ -1,0 +1,35 @@
+
+.myphoto:hover{
+    transform: scale(1.12);
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      border-radius: 0px;
+  }
+  
+  
+  
+  .myname {
+    line-height: 40px;
+    
+  }
+  .Typewriter {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .icon1{
+    display: flex;
+    gap: 20px;
+  }
+  .button-87:hover {
+    background-position: right center;
+    color: #fff;
+    transform: scale(1.1);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 50px;
+    text-decoration: none;
+  
+  }
+  
