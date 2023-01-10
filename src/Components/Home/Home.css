@@ -1,0 +1,129 @@
+.myphoto:hover {
+  transform: scale(1.12);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 0px;
+}
+
+.home {
+  width: 100%;
+  padding: 200px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 1rem;
+  background: #fffdfa;
+}
+.myphoto{
+  margin: auto;
+}
+
+.myname {
+  width: 700px;
+  color: #081520;
+  font-weight: normal;
+}
+
+.myname>p{
+  font-size: 30px;
+ 
+}
+
+.myname>h1 {
+  line-height: 70px;
+  font-size: 60px;
+}
+
+.Typewriter {
+  font-size: 30px;
+  font-weight: normal;
+  color: #081520;
+  margin: 10px 0px;
+}
+
+.icon1 {
+  display: flex;
+  gap: 20px;
+}
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  transform: scale(1.1);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .home {
+    width: 100%;
+     padding: 50px 0px 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    background: #fffdfa;
+    margin: 2px;
+  }
+  .myname {
+
+    color: #081520;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+
+  }
+  
+  .myname>p{
+    font-size: 25px;
+   
+  }
+  
+  .myname>h1 {
+
+    font-size: 50px;
+  }
+  myphoto{
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .home {
+    width: 100%;
+    padding: 50px 0px 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    background: #fffdfa;
+    margin: 2px;
+  }
+  .myname {
+
+    color: #081520;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+
+  }
+  
+  .myname>p{
+    font-size: 22px;
+   
+  }
+  
+  .myname>h1 {
+
+    font-size: 45px;
+  }
+  .myname {
+    width: 450px;
+    color: #081520;
+    font-weight: normal;
+  }
+  
+}

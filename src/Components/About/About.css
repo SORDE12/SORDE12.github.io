@@ -1,35 +1,31 @@
+.about{
+    background-color: #081520;
+    padding: 50px 0px 50px 0px;
+}
 
-.myphoto:hover{
-    transform: scale(1.12);
-      overflow: hidden;
-      box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
-        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-      border-radius: 0px;
-  }
-  
-  
-  
-  .myname {
-    line-height: 40px;
-    
-  }
-  .Typewriter {
-    font-size: 30px;
-    font-weight: lighter;
-  }
-  .icon1{
-    display: flex;
+
+.heading{
+    margin: auto;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: #66e0ff;
+    text-decoration-color: #66e0ff;
+    width: 26rem;
+    font-size: 24px;
+    padding: 1rem;
+    text-align: center;
     gap: 20px;
-  }
-  .button-87:hover {
-    background-position: right center;
-    color: #fff;
-    transform: scale(1.1);
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    border-radius: 50px;
-    text-decoration: none;
-  
-  }
-  
+ 
+}
+.about1{
+    font-size: 20px;
+    font-weight: normal ;
+    color: #fffdfa;
+    width: 65%;
+    margin: auto;
+    text-align: justify;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
