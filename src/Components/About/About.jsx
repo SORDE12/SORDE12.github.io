@@ -8,6 +8,8 @@ const About = () => {
         <h1>About Me</h1>
       </div>
 
+
+
       <div className="about1">
         <p>
           I am a Full Stack Web Developer from India. I enjoy creating scalable web applications and constantly

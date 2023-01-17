@@ -31,7 +31,7 @@
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 50px;
-  
+  color: black;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(233, 155, 11) 21%, rgb(223, 223, 191) 81.2%);
 }
 

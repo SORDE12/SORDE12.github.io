@@ -18,7 +18,7 @@ const Navbar = () => {
 
   const scrollTo2 = () => {
     window.scrollTo({
-      top: "400px",
+      top: "420",
       left: "0",
       behavior: "smooth",
     });
@@ -26,19 +26,19 @@ const Navbar = () => {
 
   const scrollTo3 = () => {
     window.scrollTo({
-      top: "900px",
+      top: "900",
       left: "0",
       behavior: "smooth",
     });
   };
 
-  const scrollTo4 = () => {
-    window.scrollTo({
-      top: "1200px",
-      left:"0",
-      behavior: "smooth",
-    });
-  };
+  // const scrollTo4 = () => {
+  //   window.scrollTo({
+  //     top: "1500px",
+  //     left:"0",
+  //     behavior: "smooth",
+  //   });
+  // };
 
   return (
     <div className="header">
@@ -53,7 +53,7 @@ const Navbar = () => {
           <li onClick={scrollTo1}>Home</li>
           <li onClick={scrollTo2}>About</li>
           <li onClick={scrollTo3}>Skills</li>
-          <li onClick={scrollTo4}>Project</li>
+          <li>Project</li>
           <li>Contact</li>
           <li>Resume</li>
         </ul>

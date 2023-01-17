@@ -25,7 +25,10 @@
     margin: auto;
     text-align: justify;
 }
-
+.about1>p{
+    color: #fffdfa;
+    
+}
 @media (min-width: 481px) and (max-width: 768px) {
     
 }
