@@ -1,7 +1,7 @@
 .card {
   margin: auto;
   position: relative;
-  width:70%;
+  width:800px;
   height: 430px;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
@@ -14,8 +14,7 @@
 
 
   background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
-  
-  border: 5px solid red;
+ 
 
 }
 
