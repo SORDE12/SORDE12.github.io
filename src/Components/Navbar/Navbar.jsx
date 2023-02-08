@@ -32,20 +32,17 @@ const Navbar = () => {
     });
   };
 
-  // const scrollTo4 = () => {
-  //   window.scrollTo({
-  //     top: "1500px",
-  //     left:"0",
-  //     behavior: "smooth",
-  //   });
-  // };
+  const scrollTo5 = () => {
+    window.scrollTo({
+      top: "2200",
+      left:"0",
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="header">
-      {/* <div className="name1">
-        <h1 style={{color:"#2f35be"}}>Om</h1>
-        <h1 style={{color:"#d89963"}}>kar</h1>
-      </div>  */}
+     
       <div className="filltext">OMKAR</div>
 
       <div className="name2">
@@ -54,8 +51,9 @@ const Navbar = () => {
           <li onClick={scrollTo2}>About</li>
           <li onClick={scrollTo3}>Skills</li>
           <li>Project</li>
-          <li>Contact</li>
-          <li>Resume</li>
+          <li onClick={scrollTo5}>Contact</li>
+        
+          <li><a href="https://drive.google.com/file/d/1wP0N8_95ZwGsSE-AUrCG3wBBL_x4UtWP/view">Resume</a> </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {click ? <FaTimes size={28} /> : <FaBars size={28} />}

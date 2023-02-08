@@ -3,7 +3,7 @@
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border-radius: 0px;
+  border-radius: 50%;
 }
 
 .home {
@@ -13,16 +13,21 @@
   display: flex;
   gap: 1rem;
   background: #fffdfa;
+
 }
 .myphoto{
   margin: auto;
+  width: 350px;
+  border-radius: 50%;
 }
 
 .myname {
   width: 700px;
   color: #081520;
   font-weight: normal;
+  
 }
+
 
 .myname>p{
   font-size: 30px;
@@ -35,10 +40,18 @@
 }
 
 .Typewriter {
-  font-size: 30px;
-  font-weight: normal;
-  color: #081520;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF8300;
   margin: 10px 0px;
+
+}
+.myname1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 70%;
+     
 }
 
 .icon1 {
@@ -63,7 +76,9 @@
     display: flex;
     flex-direction: column;
     background: #fffdfa;
-    margin: 2px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
   }
   .myname {
 
@@ -75,6 +90,12 @@
     padding-bottom: 10px;
 
   }
+  .myname1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
   
   .myname>p{
     font-size: 25px;
@@ -84,9 +105,14 @@
   .myname>h1 {
 
     font-size: 50px;
+    
   }
   myphoto{
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
   }
 }
 
@@ -98,7 +124,8 @@
     display: flex;
     flex-direction: column;
     background: #fffdfa;
-    margin: 2px;
+
+  
   }
   .myname {
 
@@ -108,22 +135,54 @@
     text-align: center;
     padding-top: 70px;
     padding-bottom: 10px;
+    width: 50%;
 
   }
   
   .myname>p{
-    font-size: 22px;
-   
+    font-size: px;
+ 
+    margin: auto;
+    width: 90%;
   }
+  .myname1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+ 
+ }
   
   .myname>h1 {
-
-    font-size: 45px;
+    width: 90%;
+    font-size: 40px;
+    margin: auto;
   }
   .myname {
     width: 450px;
     color: #081520;
     font-weight: normal;
+    width: 90%;
+   
+  }
+
+  .Typewriter {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF8300;
+    width: 99%;
+    margin: auto;
+  }
+  .myphoto{
+    margin: auto;
+    border-radius: 50%;
+  }
+  .myphoto:hover {
+    transform: scale(1.12);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 50%;
   }
   
 }

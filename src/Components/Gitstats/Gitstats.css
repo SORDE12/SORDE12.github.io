@@ -13,7 +13,8 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin: auto;
+  margin-bottom: 50px;
 }
 .calenderTop > h1 {
   text-decoration: underline;
@@ -24,9 +25,9 @@
   margin: auto;
   text-align: center;
   font-weight: bold;
+  padding-top: 5rem;
 }
 .calenderMain {
-
   width: 72%;
   text-align: center;
   margin: auto;
@@ -35,17 +36,13 @@
   padding: 2rem;
   color:#84cbe9 ;
 }
-.gitStatus{
-  display: flex;
-  flex-direction: row;
-  width: 72%;
-  justify-content: space-between;
-  margin: auto;
-  margin-top: 5rem;
+.github-stats-imgs1>img{
+  width:500px;
 }
-.gitStatus>img{
-  border-radius: 10px;
+.github-stats-imgs2>img{
+  width:500px;
 }
+
 /* style={{ margin: "auto", color: "green", fontSize: "30px" }} */
 
 .githubcal:hover {
@@ -69,8 +66,41 @@
     color:#84cbe9 ;
   }
   gitStatus{
+    display:flex;
+    flex-direction: column;
+  }
+  .github-stats-imgs{
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
   }
+  .github-stats-imgs1>img{
+    width:400px;
+  }
+  .github-stats-imgs2>img{
+    width:400px;
+  }
+  
+}
+
+@media screen and (max-width:480px) {
+  .github-stats-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+  }
+  
+  .github-stats-imgs1>img{
+    width:350px;
+  }
+  .github-stats-imgs2>img{
+    width:350px;
+  }
+
 }

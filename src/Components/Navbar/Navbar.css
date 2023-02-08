@@ -4,14 +4,13 @@
   background-color:#081520 ;
   justify-content: space-between;
   color: #FFFDFA;
-  
   width: 100%;
-  padding: .5rem 1rem .5rem 1rem;;
+  padding: .5rem 1rem .5rem 1rem;
   text-align: center;
   position: fixed;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   z-index: 10;
-
+  
 }
 
 .navmenu {
@@ -60,6 +59,7 @@
   display: flex;
   align-items: center;
   margin-right: 50px;
+
 }
 
 .filltext
@@ -139,12 +139,17 @@
     padding-left: 0px;
     
   }
+  .name2{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
 }
 
 
 @media screen and (max-width:480px) {
   .header{
-    padding: .5rem 0rem .5rem 0rem;;
+    padding: .5rem 0rem .5rem 0rem;
   
     }
   .navmenu {
@@ -193,5 +198,10 @@
     display: initial;
     padding-left: 0px;
 
+  }
+  .name2{
+    display: flex;
+    align-items: center;
+    margin-right:5px;
   }
 }

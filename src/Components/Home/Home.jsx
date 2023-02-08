@@ -19,16 +19,10 @@ const Home = () => {
           }}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="myname1">
         <img
           className="myphoto"
-          style={{ borderRadius: "10%", height: "300px" }}
+        
           src="https://avatars.githubusercontent.com/u/108116297?v=4"
         />
       </div>
