@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.52cc6c67.css",
-    "main.js": "/static/js/main.2dbe1f6e.js",
+    "main.css": "/static/css/main.27cfbb05.css",
+    "main.js": "/static/js/main.33379b61.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Overstock.png": "/static/media/Overstock.ba3ddfff156998ac7dc5.png",
     "static/media/Bindass.png": "/static/media/Bindass.0bd7ca90e551f2eb78ee.png",
+    "static/media/spareCare.png": "/static/media/spareCare.12a89da312570211a215.png",
     "static/media/Urban.png": "/static/media/Urban.9be2bae2ea2711c19d5c.png",
     "static/media/fw20_0902-Omkar-Sorde-Resume.pdf": "/static/media/fw20_0902-Omkar-Sorde-Resume.45e5053c7bc628a9b736.pdf",
     "static/media/resume.pdf": "/static/media/resume.4ca33764cc7db8e1be21.pdf",
@@ -21,12 +22,12 @@
     "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.52cc6c67.css.map": "/static/css/main.52cc6c67.css.map",
-    "main.2dbe1f6e.js.map": "/static/js/main.2dbe1f6e.js.map",
+    "main.27cfbb05.css.map": "/static/css/main.27cfbb05.css.map",
+    "main.33379b61.js.map": "/static/js/main.33379b61.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52cc6c67.css",
-    "static/js/main.2dbe1f6e.js"
+    "static/css/main.27cfbb05.css",
+    "static/js/main.33379b61.js"
   ]
 }
