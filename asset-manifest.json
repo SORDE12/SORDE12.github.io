@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27cfbb05.css",
-    "main.js": "/static/js/main.33379b61.js",
+    "main.js": "/static/js/main.c6d7cf2e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Overstock.png": "/static/media/Overstock.ba3ddfff156998ac7dc5.png",
     "static/media/Bindass.png": "/static/media/Bindass.0bd7ca90e551f2eb78ee.png",
@@ -23,11 +23,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.27cfbb05.css.map": "/static/css/main.27cfbb05.css.map",
-    "main.33379b61.js.map": "/static/js/main.33379b61.js.map",
+    "main.c6d7cf2e.js.map": "/static/js/main.c6d7cf2e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27cfbb05.css",
-    "static/js/main.33379b61.js"
+    "static/js/main.c6d7cf2e.js"
   ]
 }
