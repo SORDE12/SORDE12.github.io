@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab6256b3.css",
-    "main.js": "/static/js/main.61865f93.js",
+    "main.css": "/static/css/main.52cc6c67.css",
+    "main.js": "/static/js/main.2dbe1f6e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Overstock.png": "/static/media/Overstock.ba3ddfff156998ac7dc5.png",
     "static/media/Bindass.png": "/static/media/Bindass.0bd7ca90e551f2eb78ee.png",
     "static/media/Urban.png": "/static/media/Urban.9be2bae2ea2711c19d5c.png",
+    "static/media/fw20_0902-Omkar-Sorde-Resume.pdf": "/static/media/fw20_0902-Omkar-Sorde-Resume.45e5053c7bc628a9b736.pdf",
     "static/media/resume.pdf": "/static/media/resume.4ca33764cc7db8e1be21.pdf",
     "static/media/Vercel.png": "/static/media/Vercel.fd61b9b83d69243486a9.png",
     "static/media/reactjs.png": "/static/media/reactjs.ac9979693620f0a96231.png",
@@ -14,17 +15,18 @@
     "static/media/mongodb.png": "/static/media/mongodb.4d1763a20af23f3dbc1d.png",
     "static/media/redux.png": "/static/media/redux.492ed7d54dd2352c5786.png",
     "static/media/chakraUI.png": "/static/media/chakraUI.0719bee98cb0c0b83aeb.png",
+    "static/media/nextjs.png": "/static/media/nextjs.d1a2a5be21c264b805e5.png",
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/express.png": "/static/media/express.551b076d3a202df33a0c.png",
     "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.ab6256b3.css.map": "/static/css/main.ab6256b3.css.map",
-    "main.61865f93.js.map": "/static/js/main.61865f93.js.map",
+    "main.52cc6c67.css.map": "/static/css/main.52cc6c67.css.map",
+    "main.2dbe1f6e.js.map": "/static/js/main.2dbe1f6e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab6256b3.css",
-    "static/js/main.61865f93.js"
+    "static/css/main.52cc6c67.css",
+    "static/js/main.2dbe1f6e.js"
   ]
 }
