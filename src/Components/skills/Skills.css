@@ -1,7 +1,7 @@
 
 .skills{
-  margin-top: 50px;
-
+  padding: 50px 50px;
+  background:#AFC0B7;
 }
 body{
   overflow-x: hidden;
@@ -31,8 +31,7 @@ body{
 }
 .skillsbox{
     display: grid;
-    grid-template-columns: repeat(6, 100px);
-    grid-template-rows: repeat(2,150px);
+    grid-template-columns: repeat(5, 150px);
     width: 70%;
     margin: auto;
     text-align: center;
@@ -42,25 +41,41 @@ body{
  
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1030px) {
   .skillsbox{
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(4, 100px);
     margin: auto;
     margin-top: 50px;
     text-align: center;
     width: 80%;
     justify-content: space-evenly;
     padding: 1rem;
+  }
+
 }
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .skillsbox{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+}
+
+
 }
 
 @media screen and (max-width:480px) {
   .skillsbox{
     display: grid;
     grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(6,150px);
     margin: auto;
     text-align: center;
     width: 80%;
@@ -69,4 +84,5 @@ body{
     padding: 1rem;
     
 }
+
 }

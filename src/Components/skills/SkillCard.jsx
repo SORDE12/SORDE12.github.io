@@ -1,6 +1,23 @@
 import { border } from "@chakra-ui/react";
 import React from "react";
 import "./Skills.css";
+import chakraUI from "../../Assets/chakraUI.png"
+import css from "../../Assets/css.png"
+import express from "../../Assets/express.png"
+import git from "../../Assets/git.png"
+import github from "../../Assets/github.png"
+import html from "../../Assets/html.png"
+import js from "../../Assets/js.png"
+import jsonserver from "../../Assets/jsonserver.png"
+import materialUI from "../../Assets/materialUI.png"
+import mongodb from "../../Assets/mongodb.png"
+import netlify from "../../Assets/netlify.png"
+import nodejs from "../../Assets/nodejs.png"
+import npm from "../../Assets/npm.png"
+import reactjs from "../../Assets/reactjs.png"
+import redux from "../../Assets/redux.png"
+import Vercel from "../../Assets/Vercel.png"
+
 function SkillCard(props) {
   return (
     <div

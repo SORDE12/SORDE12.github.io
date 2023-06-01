@@ -1,5 +1,6 @@
 .githubcal {
   width: 400px;
+  
 }
 .githubcal:hover {
   background-color: var(--clr-bg);
@@ -14,7 +15,9 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background:#AFC0B7;
+  
 }
 .calenderTop > h1 {
   text-decoration: underline;

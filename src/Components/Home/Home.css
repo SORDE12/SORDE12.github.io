@@ -12,8 +12,7 @@
   padding-bottom: 100px;
   display: flex;
   gap: 1rem;
-  background: #fffdfa;
-
+  background:#AFC0B7
 }
 .myphoto{
   margin: auto;
@@ -34,6 +33,7 @@
  
 }
 
+
 .myname>h1 {
   line-height: 70px;
   font-size: 60px;
@@ -45,6 +45,42 @@
   color: #FF8300;
   margin: 10px 0px;
 
+}
+.btn{
+  background: #FFFFFF;
+  border: 1px solid #000;
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  min-width: 100px;
+  margin: 15px 0px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+}
+.btn:hover{
+  color: #fff;
+  transform: scaleX(1);
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:  #0010a4;
+  z-index: -1;
+  transform-origin: 0 0;
+  transition: transform 1s;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleX(0);
+}
+.btn1::before{
+  transform: scaleX(0);
+}
+.btn1:hover::before{
+  transform: scaleX(1);
 }
 .myname1{
    display: flex;
@@ -69,16 +105,17 @@
   text-decoration: none;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 721px) and (max-width: 940px) {
   .home {
     width: 100%;
      padding: 50px 0px 50px 0px ;
     display: flex;
     flex-direction: column;
-    background: #fffdfa;
+    background:#AFC0B7;
     gap: 40px;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid green; */
   }
   .myname {
 
@@ -88,6 +125,8 @@
     text-align: center;
     padding-top: 70px;
     padding-bottom: 10px;
+    width: 100%;
+    /* border: 1px solid red; */
 
   }
   .myname1{
@@ -116,6 +155,55 @@
   }
 }
 
+@media (min-width: 481px) and (max-width: 720px){
+  .home {
+    width: 100%;
+    padding: 50px 0px 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    background:#AFC0B7;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .myname {
+
+    color: #081520;
+    font-weight: normal;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+  
+  }
+  .myname1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+ }
+  
+  .myname>p{
+    font-size: 25px;
+   
+  }
+  
+  .myname>h1 {
+
+    font-size: 50px;
+    
+  }
+  myphoto{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  }
+
+}
 
 @media screen and (max-width:480px) {
   .home {
@@ -123,7 +211,7 @@
     padding: 50px 0px 50px 0px ;
     display: flex;
     flex-direction: column;
-    background: #fffdfa;
+    background:#AFC0B7;
 
   
   }

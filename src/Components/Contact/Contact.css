@@ -3,7 +3,6 @@
   margin: auto;;
   text-align: center;
   overflow: hidden;
-  margin-top: 100px;
   z-index: 10;
 
 }
@@ -78,7 +77,7 @@ margin-right: 300px;
 .footer{
   padding-top: 50px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:#66e0ff;
   margin: auto;
@@ -90,7 +89,7 @@ margin-right: 300px;
     margin: auto;;
     text-align: center;
     overflow: hidden;
-    margin-top: 100px;
+
     z-index: 10;
    
   }
@@ -126,6 +125,7 @@ margin-right: 300px;
     display: flex;
     margin: auto;
     margin-top: 40px;
+    text-align: center;
 }
 .Flex{
   display: flex;
@@ -138,13 +138,12 @@ margin-right: 300px;
 }
 
 
-@media only screen and (min-width: 250px) and (max-width: 450px) {
+@media only screen and (min-width: 250px) and (max-width: 600px) {
   .Contact{
     width:80%;
     margin: auto;;
     text-align: center;
     overflow: hidden;
-    margin-top: 100px;
     z-index: 10;
  
   }
@@ -153,6 +152,14 @@ margin-right: 300px;
       font-size: 30px;;
 
   }
+  
+  .logo{
+    width:20%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
   
   .Flex{
       display: flex;
@@ -211,12 +218,6 @@ margin-right: 300px;
       padding-bottom: 10px;
       font-size: 13px;
      
-  }
-  .logo{
-      margin-left: 40px;
-      width:20%;
-      margin-top: 40px;
-      display: flex;
   }
   .logo>button{
       margin-left: 20px;

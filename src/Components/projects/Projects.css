@@ -2,7 +2,7 @@
   margin: auto;
   position: relative;
   width:800px;
-  height: 430px;
+  height: 500px;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
   transition: 0.3s;
@@ -11,25 +11,30 @@
   cursor: pointer;
   /* background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%); */
   /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
-
+  border:3px solid #FF8300;
+  padding-bottom: 50px;
 
   background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
  
 
 }
 
+projectContainer{
+  margin-top: 30px;
 
-
-
-.card:hover {
-  height: 580px;
 }
+
+/* .card:hover {
+  height: 500px;
+} */
+
 .imgbox {
 
   position: relative;
-  width: 100%;
-  height: 90%;
+  width: 90%;
+  height: 85%;
   transform: translateY(-100px);
+  margin: auto;
 
 }
 .proimg {
@@ -43,15 +48,28 @@
 }
 .content {
 
-  padding: 10px 20px;
   text-align: center;
   transform: translateY(-130px);
   opacity: 0;
   transition: 0.3s;
-}
-.card:hover > .content {
   height: 200px;
   opacity: 1;
+
+}
+ .content>p{
+    margin-top: 50px;
+    text-align: justify;
+  }
+
+.livelinkDiv{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-top: 10px;
+
+
 }
 
 .livelink {
@@ -93,84 +111,96 @@
 
 }
 
-@media (min-width: 481px) and (max-width: 768px)   {
-/* 
+
+
+@media (min-width: 481px) and (max-width:800px)   {
+
   .card {
-    width: 400px;
-    font-size: 10px;
-    padding: 10px 20px;
-    height: 200px;
-
-
-  }
-  .titleproject{
-    font-size: 15px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-  }
-  .card:hover{
-    height: 550px;
-  }
-
-  .content{
-    font-size: 10px;
-    height: 550px;
-  }
-
-  .imgbox {
-  
+    margin: auto;
     position: relative;
-    width: 100%;
-    height: 63%;
-    transform: translateY(-60px);
-    font-size: 10px;
+    width:90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+    padding: 30px 50px;
+    /* background-color: #fff; */
+    cursor: pointer;
+    /* background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%); */
+    /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+    border:3px solid #FF8300;
+    background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
   }
-.livelink:hover{
-  font-size: 10px;
-} */
-
 }
 
 
 @media screen and (max-width:480px) {
 
   .card {
-    width: 400px;
+    width: 350px;
     font-size: 10px;
     padding: 10px 20px;
-    height: 200px;
-
+    height: 530px;
+    border:3px solid #FF8300;
   }
   .titleproject{
     font-size: 15px;
-    height: 30px;
+    height: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-weight: bold;
   }
-  .card:hover{
-    height: 550px;
-  }
+ .content{
+  
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-130px);
+  opacity: 0;
+  transition: 0.3s;
+  height: 350px;
+  opacity: 1;
+ }
 
-  .content{
-    font-size: 10px;
-    height: 550px;
+  .content>p{
+    font-size: 18px;
+    height: 250px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .livelink {
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(
+      45deg,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%
+    );
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+  
   }
 
   .imgbox {
   
     position: relative;
     width: 100%;
-    height: 63%;
+    height: 45%;
     transform: translateY(-60px);
     font-size: 10px;
   }
+
 .livelink:hover{
   font-size: 10px;
 } 
+.livelinkDiv{
+  width: 250px;
+}
 
 }

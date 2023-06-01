@@ -2,6 +2,7 @@ import React from 'react'
 import {FaGithub , FaLinkedin} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 import {BsFillPersonLinesFill} from "react-icons/bs"
+import Resume from "../pdf/resume.pdf"
 
 const SocialLinks = () => {
     const links = [
@@ -40,9 +41,10 @@ const SocialLinks = () => {
                   Resume <BsFillPersonLinesFill size={25}/>
                 </>
             ),
-            href : "https://drive.google.com/file/d/1wP0N8_95ZwGsSE-AUrCG3wBBL_x4UtWP/view",
+            href : {Resume},
             style : "rounded-br-md",
-            download : true
+            download : "Omkar_Sorde_Resume",
+            
         },
     ]
   return (
@@ -59,9 +61,6 @@ const SocialLinks = () => {
               </a>
           </li>
          ))}
-
-
-            
         </ul>
     </div>
   )
