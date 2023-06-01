@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c987bc3.css",
-    "main.js": "/static/js/main.cb64575a.js",
+    "main.css": "/static/css/main.df3ccf9b.css",
+    "main.js": "/static/js/main.2cbbf5bb.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Overstock.png": "/static/media/Overstock.ba3ddfff156998ac7dc5.png",
+    "static/media/BodyCare.png": "/static/media/BodyCare.713fbbf0724310749d6b.png",
     "static/media/Bindass.png": "/static/media/Bindass.0bd7ca90e551f2eb78ee.png",
     "static/media/spareCare.png": "/static/media/spareCare.12a89da312570211a215.png",
     "static/media/Urban.png": "/static/media/Urban.9be2bae2ea2711c19d5c.png",
@@ -22,12 +22,12 @@
     "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.3c987bc3.css.map": "/static/css/main.3c987bc3.css.map",
-    "main.cb64575a.js.map": "/static/js/main.cb64575a.js.map",
+    "main.df3ccf9b.css.map": "/static/css/main.df3ccf9b.css.map",
+    "main.2cbbf5bb.js.map": "/static/js/main.2cbbf5bb.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c987bc3.css",
-    "static/js/main.cb64575a.js"
+    "static/css/main.df3ccf9b.css",
+    "static/js/main.2cbbf5bb.js"
   ]
 }
