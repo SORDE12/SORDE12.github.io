@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.df3ccf9b.css",
-    "main.js": "/static/js/main.79199fb3.js",
+    "main.js": "/static/js/main.a5c944e0.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/BodyCare.png": "/static/media/BodyCare.713fbbf0724310749d6b.png",
     "static/media/Bindass.png": "/static/media/Bindass.0bd7ca90e551f2eb78ee.png",
     "static/media/spareCare.png": "/static/media/spareCare.12a89da312570211a215.png",
     "static/media/Urban.png": "/static/media/Urban.9be2bae2ea2711c19d5c.png",
-    "static/media/resume.pdf": "/static/media/resume.83cd721f4c049e15b920.pdf",
-    "static/media/fw20_0902-Omkar-Sorde-Resume.pdf": "/static/media/fw20_0902-Omkar-Sorde-Resume.45e5053c7bc628a9b736.pdf",
+    "static/media/Omkar-Sorde-Resume.pdf": "/static/media/Omkar-Sorde-Resume.83cd721f4c049e15b920.pdf",
     "static/media/Vercel.png": "/static/media/Vercel.fd61b9b83d69243486a9.png",
     "static/media/reactjs.png": "/static/media/reactjs.ac9979693620f0a96231.png",
     "static/media/nodejs.png": "/static/media/nodejs.007e99f68b718e476aba.png",
@@ -23,11 +22,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.df3ccf9b.css.map": "/static/css/main.df3ccf9b.css.map",
-    "main.79199fb3.js.map": "/static/js/main.79199fb3.js.map",
+    "main.a5c944e0.js.map": "/static/js/main.a5c944e0.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df3ccf9b.css",
-    "static/js/main.79199fb3.js"
+    "static/js/main.a5c944e0.js"
   ]
 }
